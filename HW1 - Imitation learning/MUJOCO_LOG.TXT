@@ -1,0 +1,60 @@
+Wed Mar 18 23:42:11 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 00:14:12 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 01:01:00 2020
+ERROR: Could not open activation key file C:\Users\zohar\.mujoco\mjkey.txt
+
+Thu Mar 19 01:28:37 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 01:36:59 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 01:39:45 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 10:54:31 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 11:10:38 2020
+ERROR: Could not open activation key file C:\Users\zohar\.mujoco\mjkey.txt
+
+Thu Mar 19 11:13:53 2020
+ERROR: Could not open activation key file C:\Users\zohar\.mujoco\mjkey.txt
+
+Thu Mar 19 11:28:25 2020
+ERROR: Could not open activation key file C:\Users\zohar\.mujoco\mjkey.txt
+
+Thu Mar 19 11:38:30 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 12:07:43 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 12:08:49 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 19:54:17 2020
+ERROR: Could not open activation key file C:\Users\zohar\.mujoco\mjkey.txt
+
+Thu Mar 19 23:50:17 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 23:52:39 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Thu Mar 19 23:59:02 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Fri Mar 20 00:03:55 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Fri Mar 20 19:58:24 2020
+ERROR: GLEW initalization error: Missing GL version
+
+Fri Mar 20 23:09:16 2020
+ERROR: GLEW initalization error: Missing GL version
+

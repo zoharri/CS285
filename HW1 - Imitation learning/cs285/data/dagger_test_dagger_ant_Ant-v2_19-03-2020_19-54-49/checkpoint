@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\zohar\\OneDrive - Technion\\Courses\\BerkeleyDRL\\HW\\HW1 - Imitation learning\\cs285\\scripts\\../data\\dagger_test_dagger_ant_Ant-v2_19-03-2020_19-54-49/policy_itr_19"
+all_model_checkpoint_paths: "C:\\Users\\zohar\\OneDrive - Technion\\Courses\\BerkeleyDRL\\HW\\HW1 - Imitation learning\\cs285\\scripts\\../data\\dagger_test_dagger_ant_Ant-v2_19-03-2020_19-54-49/policy_itr_19"
