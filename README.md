@@ -10,10 +10,18 @@ The homework included in the repo:
 
 # SOME RESULTS
 This reuslt is from the first homework on imitation learning.
+
 Policy result after 5 epochs:
+
 ![Results after 5 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid5.gif)
+
 Policy result after 95 epochs:
+
 ![Results after 95 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid95.gif)
+
+Policy result after200 epochs:
+
+![Results after 95 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif)
 
 <!-- GETTING STARTED -->
 # GETTING STARTED
