@@ -12,7 +12,7 @@ from cs285.infrastructure.logger import Logger
 
 # params for saving rollout videos to tensorboard
 MAX_NVIDEO = 2
-MAX_VIDEO_LEN = 40
+MAX_VIDEO_LEN = 1000
 
 class RL_Trainer(object):
 

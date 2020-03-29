@@ -84,7 +84,7 @@ def main():
 
     # convert to dictionary
     params = vars(args)
-    
+
     # for this assignment, we train on everything we recently collected
     # so making train_batch_size=batch_size 
     params['train_batch_size']=params['batch_size']
