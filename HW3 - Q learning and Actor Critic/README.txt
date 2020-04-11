@@ -1,70 +1,38 @@
+# CS285 - HW3
+Q learning and Actor Critic
 
-1) See hw1 if you'd like to see installation instructions. You do NOT have to redo them. But, you need to install OpenCV for this assignment:
-`pip install opencv-python==3.4.0.12`
-
-You also need to replace `<pathtogym>/gym/envs/box2d/lunar_lander.py` with the provided `lunar_lander.py` file. To find the file:
-$ locate lunar_lander.py
-(or if there are multiple options there):
-$ source activate cs285_env
-$ ipython
-$ import gym
-$ gym.__file__
-<pathtogym>/gym/__init__.py
-##############################################
-##############################################
+In the code you can find an agent that learn, without expert data, and only using interaction with the evironment, using Policy Q learning and Actor Critic methods.
+The policy in this case is a simple NN (you can control the parameters).
 
 
-2) Code:
-
--------------------------------------------
-
-Files to look at, even though there are no explicit 'TODO' markings:
-- scripts/run_hw3_dqn.py
-
--------------------------------------------
-
-Blanks to be filled in by using your code from hw1 are marked with 'TODO: GETTHIS from HW1'
-
-The following files have these:
-- infrastructure/rl_trainer.py
-- infrastructure/utils.py
-- policies/MLP_policy.py
-
-Blanks to be filled in by using your code from hw2 are marked with 'TODO: GETTHIS from HW2'
-
-- infrastructure/utils.py
-- policies/MLP_policy.py
-
--------------------------------------------
-
-Blanks to be filled in now (for this assignment) are marked with 'TODO'
-
-The following files have these:
-- critics/dqn_critic.py
-- agents/dqn_agent.py
-- policies/argmax_policy.py
-
-- critics/bootstrapped_continuous_critic.py
-- agents/ac_agent.py
-
-##############################################
-##############################################
+# THE SOLUTION
 
 
-3) Run code with the following command: 
+I will present the general steps of the solution. You can find a deeper explanation with some mathematical notations in the lectures [http://rail.eecs.berkeley.edu/deeprlcourse/](http://rail.eecs.berkeley.edu/deeprlcourse/) 
+The skelaton of the solution:
+1. Our goal is to maximize the expectancy of the total reward under the agents policy (and the transition dynamics that are not known)
+2. The vanilla algorithm is to directly calculate the gradient (and approximating the mean with ampiric mean) and use gradient ascent on a nerual network. This will result in high variance
+3. In order to reduce variance:
+    1. Use the causality property of the environment (reward from previous actions shouldn't effect our current action choice) and thus we use "reward to go" 
+    2. Consider the approach that near future rewards are more important than far future rewards (teaching our agent the consept of "fear of death") thus we can use discounting
+    3. Use baselines => approximate the average reward and take actions that are better than it (calculate advantages) by fitting a baseline neural network
 
-$ python cs285/scripts/run_hw3_dqn.py --env_name PongNoFrameskip-v4 --exp_name test_pong
-$ python cs285/scripts/run_hw3_actor_critic.py --env_name CartPole-v0 -n 100 -b 1000 --exp_name 100_1 -ntu 100 -ngsptu 1
-
-Flags of relevance, when running the commands above (see pdf for more info):
--double_q Whether to use double Q learning or not.
-
-##############################################
+# RUNNING THE CODE
+Run the code with all of the features:
+```sh
+python run_hw2_policy_gradient.py --env_name HalfCheetah-v2 --ep_len 150 --discount 0.95 -n 100 -l 2 -s 32 -b <b> -lr <r> --video_log_freq -1 --reward_to_go --nn_baseline --exp_name hc_b<b>_lr<r>_nnbaseline
+```
 
 
-4) Visualize saved tensorboard event file:
+View the results with:
+```sh
+cd cs285/data/<your_log_dir>
+tensorboard --logdir 
+```
+For more running options please reffer to the pdf uncluded in the HW3 folder
 
-$ cd cs285/data/<your_log_dir>
-$ tensorboard --logdir .
+<!-- CONTACT -->
+# CONTACT
+Zohar Rimon - zohar.rimon@campus.technion.ac.il
 
-Then, navigate to shown url to see scalar summaries as plots (in 'scalar' tab), as well as videos (in 'images' tab)
+Project Link: [https://github.com/zoharri/CS285](https://github.com/zoharri/CS285)
