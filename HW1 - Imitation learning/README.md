@@ -17,6 +17,21 @@ The skelaton of the solution:
     2. Re-lable the trajectory with the experts policy
     3. Fit the agents policy
 
+# RESULTS
+
+Policy result after 5 epochs:
+
+![Results after 5 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid5.gif)
+
+Policy result after 95 epochs:
+
+![Results after 95 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid95.gif)
+
+Policy result after200 epochs:
+
+![Results after 200 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif)
+
+*Graphs can be produced using tensorboard with the logdirs in cs285/data directory
 # RUNNING THE CODE
 Run the code (with dagger) with:
 ```sh
