@@ -6,10 +6,16 @@ The base code of this repository is from: https://github.com/berkeleydeeprlcours
 The homework included in the repo:
 1. Imitation learning
 2. Policy Gradients
-
+3. Q learning and Actor Critic
 
 # SOME RESULTS
-This reuslt is from the first homework on imitation learning.
+Result from the first homework on imitation learning:
+
+![Results after 200 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif)
+
+Result from the third homework on Q learning:
+
+![Results after 95 epochs](https://github.com/zoharri/CS285/blob/master/HW3%20-%20Q%20learning%20and%20Actor%20Critic/cs285/data/dqn_q1_PongNoFrameskip-v4_09-04-2020_21-44-30/gym/PongSum.gif)
 
 Policy result after 5 epochs:
 
