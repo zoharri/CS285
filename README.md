@@ -11,12 +11,15 @@ The homework included in the repo:
 # SOME RESULTS
 Result from the first homework on imitation learning:
 
-![Results after 200 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif)
+<p align="center">
+  <img src="https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif">
+</p>
 
 Result from the third homework on Q learning:
 
-![Results after 6M steps](https://github.com/zoharri/CS285/blob/master/HW3%20-%20Q%20learning%20and%20Actor%20Critic/cs285/data/dqn_q1_PongNoFrameskip-v4_09-04-2020_21-44-30/gym/PongSum.gif)
-
+<p align="center">
+  <img src="https://github.com/zoharri/CS285/blob/master/HW3%20-%20Q%20learning%20and%20Actor%20Critic/cs285/data/dqn_q1_PongNoFrameskip-v4_09-04-2020_21-44-30/gym/PongSum.gif">
+</p>
 
 <!-- GETTING STARTED -->
 # GETTING STARTED
