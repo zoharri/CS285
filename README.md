@@ -21,8 +21,8 @@ Result from the third homework on Q learning:
 <!-- GETTING STARTED -->
 # GETTING STARTED
 1. Download mujoco200 (not mujoco150 as stated in the original repo)
-2. I recommend using conda, create the new env with: "conda env create -f cs285_env.yml" make sure that the path in written in the prefix section inside the yml file is correct
-3. The rest of the insructions are the same as the original repo (run the pip install -e . and setup file) 
+2. I recommend using conda, create the new env with: "conda env create -f cs285_env.yml" make sure that the path in the prefix section inside the yml file is correct
+3. The rest of the insructions are the same as in the original repo (run the pip install -e . and setup file) 
 
 
 <!-- CONTACT -->
