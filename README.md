@@ -1,6 +1,6 @@
 # CS285
-This repository is my solution to the homework(1-2) given in the berkeley CS285 deep RL course.  
-In this repository you can explenations on the algorithms used, full implementation code, results and how to reproduce the results shown. 
+This repository is my solution to the homework(1-3) given in the berkeley CS285 deep RL course.  
+In this repository you can find explenations on the algorithms used, full implementation code, results and how to reproduce the results shown. 
 
 The base code of this repository is from: https://github.com/berkeleydeeprlcourse/homework_fall2019. The code written here heavely relies on that repository.
 The homework included in the repo:
