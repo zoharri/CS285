@@ -21,15 +21,21 @@ The skelaton of the solution:
 
 Policy result after 5 epochs:
 
-![Results after 5 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid5.gif)
+<p align="center">
+  <img src="https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid5.gif">
+</p>
 
 Policy result after 95 epochs:
 
-![Results after 95 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid95.gif)
+<p align="center">
+  <img src="https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid95.gif">
+</p>
 
 Policy result after200 epochs:
 
-![Results after 200 epochs](https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif)
+<p align="center">
+  <img src="https://github.com/zoharri/CS285/blob/master/HW1%20-%20Imitation%20learning/results/Humanoid200.gif">
+</p>
 
 *Graphs can be produced using tensorboard with the logdirs in cs285/data directory
 # RUNNING THE CODE
