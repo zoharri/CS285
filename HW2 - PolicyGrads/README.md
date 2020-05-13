@@ -5,7 +5,7 @@ In the code you can find an agent that learn, without expert data, and only usin
 The policy in this case is a simple NN (you can control the parameters).
 
 
-# THE SOLUTION
+# THE ALGORITHM
 
 
 I will present the general steps of the solution. You can find a deeper explanation with some mathematical notations in the lectures [http://rail.eecs.berkeley.edu/deeprlcourse/](http://rail.eecs.berkeley.edu/deeprlcourse/) 
